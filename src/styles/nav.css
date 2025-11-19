@@ -1,0 +1,51 @@
+/* nav.css - Dignofy Navbar */
+
+.nav-wrap {
+  width: 100%;
+  padding: 14px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(3,8,25,0.7);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-brand a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #e8faff;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-links a {
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #a3bffa;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  background: rgba(56,189,248,0.15);
+}
+
+.logout-btn {
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  color: #cbd5e1;
+  cursor: pointer;
+}

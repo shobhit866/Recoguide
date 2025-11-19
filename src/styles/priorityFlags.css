@@ -1,0 +1,37 @@
+.pf-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pf-section {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.pf-high { border-left: 4px solid #ff4d4d; }
+.pf-medium { border-left: 4px solid #ffd84d; }
+.pf-low { border-left: 4px solid #3ddc84; }
+
+.pf-item {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.04);
+  margin-top: 8px;
+}
+
+.pf-item-high { border-left: 3px solid #ff4d4d; }
+.pf-item-medium { border-left: 3px solid #ffd84d; }
+.pf-item-low { border-left: 3px solid #3ddc84; }
+
+.pf-empty {
+  color: #9bb8d4;
+  font-size: 14px;
+}
+
+.pf-value {
+  font-size: 13px;
+  color: #c8e7ff;
+}

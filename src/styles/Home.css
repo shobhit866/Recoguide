@@ -1,0 +1,272 @@
+.homeA-wrap {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.upload-row {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.upload-left h1 {
+  color: #eaf4ff;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.muted {
+  color: #9fbfda;
+  font-size: 14px;
+}
+
+.upload-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  cursor: pointer;
+}
+
+.upload-box input {
+  display: none;
+}
+
+.upload-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.btn.primary {
+  background: linear-gradient(90deg,#38bdf8,#7dd3fc);
+  color: #05202a;
+}
+
+.btn.primary:hover {
+  filter: brightness(1.12);
+}
+
+.btn.ghost {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.06);
+  color: #cfeeff;
+}
+
+.btn.ghost:hover {
+  border-color: #38bdf8;
+}
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 20px;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.45);
+  color: #e6f7ff;
+  max-width:100%;
+}
+
+.summary-card h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #eaf4ff;
+  margin-bottom: 10px;
+}
+
+.summary-text {
+  color: #d8eefe;
+  font-size: 14px;
+  line-height: 1.65;
+  background: rgba(255,255,255,0.02);
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.05);
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.table-box {
+  overflow-x: auto;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+  padding: 10px 8px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.status-cell.normal {
+  color: #9ff4cf;
+  font-weight: 700;
+}
+
+.status-cell.high {
+  color: #ffb3b3;
+  font-weight: 700;
+}
+
+.status-cell.low {
+  color: #ffee9f;
+  font-weight: 700;
+}
+
+.advice-cell {
+  font-size: 14px;
+  color: #cfefff;
+  line-height: 1.5;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recent-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.01);
+  color: #cfeeff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.recent-link:hover {
+  background: rgba(56,189,248,0.06);
+  transform: translateY(-2px);
+}
+
+.diet-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #eaf4ff;
+}
+
+.diet-block {
+  background: rgba(255,255,255,0.02);
+  padding: 12px 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.diet-title {
+  font-weight: 800;
+  font-size: 15.5px;
+  margin-bottom: 6px;
+  color: #8ce7ff;
+  list-style-type: none;
+}
+
+.diet-block ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style-type: none;
+}
+
+.diet-block li {
+  font-size: 14.5px;
+  color: #d9faff;
+  line-height: 1.6;
+  margin-bottom: 4px;
+  list-style-type:none;
+}
+
+.complexity-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #eaf4ff;
+  margin-bottom: 8px;
+}
+
+.complex-score {
+  font-size: 34px;
+  font-weight: 900;
+  color: #7dd3fc;
+  text-shadow: 0px 0px 6px rgba(56,189,248,0.5);
+  margin-bottom: 6px;
+}
+
+.complexity-card p {
+  color: #d3ebff;
+  font-size: 14.5px;
+  line-height: 1.65;
+  background: rgba(255,255,255,0.02);
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.questions-list {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.questions-list li {
+  font-size: 14.5px;
+  color: #d8f4ff;
+  margin-bottom: 6px;
+  line-height: 1.6;
+  padding-left: 4px;
+}
+
+.help-card ol {
+  padding-left: 18px;
+  color: #cfeeff;
+}
+
+@media (max-width: 980px) {
+  .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+}
+

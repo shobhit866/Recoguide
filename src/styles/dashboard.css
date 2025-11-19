@@ -1,0 +1,210 @@
+/* ===============================
+   Dashboard Container
+================================= */
+.dashboard-container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px;
+  
+}
+
+/* Title */
+.dashboard-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #eaf4ff;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   Select Box Row
+================================= */
+.dashboard-select-row {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-select-row label {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.dashboard-select {
+  padding: 8px 10px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* ===============================
+   Chart Box (Centered)
+================================= */
+.dashboard-chart-box {
+  width: 100%;
+  max-width: 820px;
+  height: 360px;
+  margin: 0 auto 32px;
+  padding: 20px;
+
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 14px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.45);
+  backdrop-filter: blur(10px);
+}
+
+/* Subtitle */
+.dashboard-subtitle {
+  margin-bottom: 16px;
+  color: #eaf4ff;
+}
+
+/* ===============================
+   Table Wrapper
+================================= */
+.reports-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background: rgba(255,255,255,0.02);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+/* Table Header */
+.reports-table thead {
+  background: rgba(255,255,255,0.05);
+}
+
+.reports-table th {
+  text-align: left;
+  padding: 12px;
+  font-size: 14px;
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Table Body Rows */
+.reports-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: #e2e8f0;
+}
+
+/* Hover Effect */
+.reports-table tr:hover {
+  background: rgba(56,189,248,0.07);
+}
+
+/* File name */
+.report-file {
+  font-weight: 600;
+  color: #38bdf8;
+}
+
+/* Highlight Pills (parsed values) */
+.highlight-pill {
+  display: inline-block;
+  padding: 4px 8px;
+  background: rgba(56,189,248,0.12);
+  border-radius: 8px;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.no-data {
+  color: #94a3b8;
+}
+
+/* View Button */
+.view-btn {
+  padding: 6px 12px;
+  background: #38bdf8;
+  border-radius: 8px;
+  color: #05202a;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.view-btn:hover {
+  background: #0ea5e9;
+}
+.chart-wrapper{
+  border:2px #e2e8f0;
+}
+
+/* ================= CUSTOM DROPDOWN ================= */
+
+.dropdown-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.dropdown-box {
+  padding: 10px 14px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  align-items: center;
+}
+
+.dropdown-box:hover {
+  background: rgba(255,255,255,0.09);
+}
+
+.dropdown-arrow {
+  opacity: 0.7;
+}
+
+.dropdown-list {
+  margin-top: 4px;
+  background: rgba(15,23,42,0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  max-height: 220px;
+  overflow-y: auto;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+.dropdown-item {
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  cursor: pointer;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background: rgba(56,189,248,0.15);
+}
+
+.drop-name {
+  font-weight: 500;
+}
+
+.drop-code {
+  opacity: 0.7;
+}

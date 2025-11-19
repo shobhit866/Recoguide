@@ -1,0 +1,57 @@
+.cd-wrapper {
+  width: 280px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+.cd-label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #ddd;
+}
+
+.cd-selected {
+  background: #1e1f24;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cd-selected:hover {
+  border-color: #4ea8ff;
+}
+
+.cd-arrow {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.cd-menu {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background: #212228;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-top: 6px;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 20;
+}
+
+.cd-item {
+  padding: 10px 14px;
+  color: #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cd-item:hover {
+  background: #2a2b31;
+  color: #4ea8ff;
+}

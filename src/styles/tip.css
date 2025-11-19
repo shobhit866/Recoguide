@@ -1,0 +1,26 @@
+/* tip.css - Bottom Glass Tip Card */
+
+.tip-footer {
+  background-color:rgba(255,255,255,0.03);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(3,8,25,0.7);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.tip-label {
+  font-weight: 700;
+  color: #e8faff;
+  margin-right: 6px;
+}
+
+.tip-text {
+  color: #cbd5e1;
+}
